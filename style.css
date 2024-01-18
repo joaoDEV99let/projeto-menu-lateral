@@ -1,0 +1,35 @@
+.menu {
+    border-top-right-radius: 10px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 120px;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: left 500ms;
+    /* Cambiado a 'left' para que solo afecte a la propiedad left */
+}
+
+.btn-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(255, 8, 0);
+    cursor: pointer; 
+}
+
+
+.menu.open {
+    left: 0;
+}
+
+.menu.close{
+    left: -100%;
+}
+
+.btn-menu{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
